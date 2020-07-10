@@ -1,0 +1,486 @@
+body:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url("../img/startgame2.png") no-repeat -10000px -1000px,
+    url("../img/chongzhi2.png") no-repeat -10000px -1000px,
+    url("../img/cunchu2.png") no-repeat -10000px -1000px,
+    url("../img/kefu2.png") no-repeat -10000px -1000px,
+    url("../img/luntan2.png") no-repeat -10000px -1000px,
+    url("../img/peizhi.png") no-repeat -10000px -1000px,
+    url("../img/shezhi2.png") no-repeat -10000px -1000px,
+    url("../img/shouye2.png") no-repeat -10000px -1000px,
+    url("../img/sx2.png") no-repeat -10000px -1000px,
+    url("../img/gb2.png") no-repeat -10000px -1000px,
+    url("../img/btn2.png") no-repeat -10000px -1000px,
+    url("../img/banner.png") no-repeat -10000px -1000px;
+    width: 0;
+    height: 0
+}
+
+.body{
+	font-size:16px;
+	color:#fff;
+	cursor:default;
+}
+.windows{
+	margin-top:50px;
+	margin-left:50px;
+	width:900px;
+	height:900px;
+	background:url("../img/windows.png");
+	background-repeat:no-repeat;
+	
+	border-radius:5px;
+}
+
+.login{
+	margin-left:786px;
+	width:292px;
+	height:900px;
+}
+button{
+	border: none;
+	outline:none;
+	cursor:default;
+}
+.button_{
+	cursor:default;
+	text-align:right;
+	padding-top:10px;
+}
+
+.gb{
+	width:32px;
+	height:32px;
+	background-position:center center;
+
+	position:absolute;
+	top:125px;
+	left:825px;
+	background:url("../img/gb2.png") no-repeat center center;
+	background:url("../img/gb1.png") no-repeat center center;
+}
+.gb:hover{
+	background:url("../img/gb2.png") no-repeat center center;
+}
+.min{
+	width:32px;
+	height:32px;
+	background-position:center center;
+
+
+	position:absolute;
+	top:125px;
+	left:790px;
+	background:url("../img/sx1.png") no-repeat center center;
+}
+.min:hover{
+	background:url("../img/sx2.png") no-repeat center center;
+}
+
+
+
+
+.loading{
+	display:none;
+	margin-left:786px;
+	width:292px;
+	height:900px;
+	text-align:center;
+	color:rgb(200,200,200);
+	cursor:default;
+}
+.loading img{
+	margin-top:230px;
+	margin-bottom:30px;
+	cursor:default;
+}
+.login2{
+	position:absolute;
+	left:954px;
+	top:564px;
+	cursor:default;
+}
+.login2 img{
+	margin-right:14px;
+	cursor:default;
+}
+#title{
+	letter-spacing:1px;
+}
+.qr_code{
+	display:none;
+	position:absolute;
+	left:905px;
+	top:270px;
+	text-align:center;
+	color:#fff;
+}
+.qr_code img{
+	width:180px;
+	height:180px;
+	margin-bottom:10px;
+}
+.view_{
+	margin-top:175px;
+	margin-left:212px;
+}
+
+.select_{
+	cursor:default;
+	
+
+}
+
+#preloader {
+/* Images you want to preload*/
+background-image: url("../img/startgame2.png");
+width: 0px;
+height: 0px;
+display: inline;
+}
+
+
+
+.shouye{
+	width:110px;
+	height:46px;
+	background-position:center center;
+
+	position:absolute;
+	top:223px;
+	left:75px;
+	background:url("../img/shouye1.png") no-repeat center center;
+}
+
+.shouye:hover{
+	background:url("../img/shouye2.png") no-repeat center center;
+}
+
+.luntan{
+	width:110px;
+	height:46px;
+	background-position:center center;
+
+	position:absolute;
+	top:265px;
+	left:75px;
+	background:url("../img/luntan1.png") no-repeat center center;
+}
+
+.luntan:hover{
+	background:url("../img/luntan2.png") no-repeat center center;
+}
+
+.shezhi{
+	width:110px;
+	height:46px;
+	background-position:center center;
+
+	position:absolute;
+	top:308px;
+	left:75px;
+	background:url("../img/shezhi1.png") no-repeat center center;
+}
+
+.shezhi:hover{
+	background:url("../img/shezhi2.png") no-repeat center center;
+}
+
+
+.cunchu{
+	width:110px;
+	height:46px;
+	background-position:center center;
+
+	position:absolute;
+	top:350px;
+	left:75px;
+	background:url("../img/cunchu1.png") no-repeat center center;
+}
+
+.cunchu:hover{
+	background:url("../img/cunchu2.png") no-repeat center center;
+}
+
+
+.zhuce{
+	width:110px;
+	height:46px;
+	background-position:center center;
+
+	position:absolute;
+	top:393px;
+	left:75px;
+	background:url("../img/zhuce1.png") no-repeat center center;
+}
+
+.zhuce:hover{
+	background:url("../img/zhuce2.png") no-repeat center center;
+}
+
+
+.chongzhi{
+	width:110px;
+	height:46px;
+	background-position:center center;
+
+	position:absolute;
+	top:435px;
+	left:75px;
+	background:url("../img/chongzhi1.png") no-repeat center center;
+}
+
+.chongzhi:hover{
+	background:url("../img/chongzhi2.png") no-repeat center center;
+}
+
+
+.kefu{
+	width:110px;
+	height:46px;
+	background-position:center center;
+
+	position:absolute;
+	top:478px;
+	left:75px;
+	background:url("../img/kefu1.png") no-repeat center center;
+}
+
+.kefu:hover{
+	background:url("../img/kefu2.png") no-repeat center center;
+}
+
+.peizhi{
+	width:548px;
+	height:403px;
+	background-position:centerÂ center;
+
+	position:absolute;
+	top:224px;
+	left:270px;
+	background:url("../img/peizhi.png") no-repeat center center;
+}
+
+.startgame{
+	width:197px;
+	height:175px;
+	background-position:center center;
+
+	position:absolute;
+	top:600px;
+	left:750px;
+	background:url("../img/startgame1.png") no-repeat center center;
+}
+
+.startgame:hover{
+	background:url("../img/startgame2.png") no-repeat center center;
+}
+
+.窗口模式{
+	width:32px;
+	height:21px;
+	background-position:center center;
+
+	position:absolute;
+	top:238px;
+	left:357px;
+	background:url("../img/btn1.png") no-repeat center center;
+}
+
+.关闭音效{
+	width:32px;
+	height:21px;
+	background-position:center center;
+
+	position:absolute;
+	top:237px;
+	left:482px;
+	background:url("../img/btn1.png") no-repeat center center;
+}
+
+.关闭音乐{
+	width:32px;
+	height:21px;
+	background-position:center center;
+
+	position:absolute;
+	top:237px;
+	left:645px;
+	background:url("../img/btn1.png") no-repeat center center;
+}
+
+.开启跳帧{
+	width:32px;
+	height:21px;
+	background-position:center center;
+
+	position:absolute;
+	top:237px;
+	left:772px;
+	background:url("../img/btn1.png") no-repeat center center;
+}
+
+.一档{
+	width:26px;
+	height:24px;
+	background-position:center center;
+
+	position:absolute;
+	top:293px;
+	left:285px;
+	background:url("../img/23.png") no-repeat center center;
+}
+
+.二档{
+	width:26px;
+	height:24px;
+	background-position:center center;
+
+	position:absolute;
+	top:322px;
+	left:285px;
+	background:url("../img/23.png") no-repeat center center;
+}
+
+.三档{
+	width:26px;
+	height:24px;
+	background-position:center center;
+
+	position:absolute;
+	top:351px;
+	left:285px;
+	background:url("../img/23.png") no-repeat center center;
+}
+
+.四档{
+	width:26px;
+	height:24px;
+	background-position:center center;
+
+	position:absolute;
+	top:381px;
+	left:285px;
+	background:url("../img/23.png") no-repeat center center;
+}
+
+.五档{
+	width:26px;
+	height:24px;
+	background-position:center center;
+
+	position:absolute;
+	top:411px;
+	left:285px;
+	background:url("../img/23.png") no-repeat center center;
+}
+
+.六档{
+	width:26px;
+	height:24px;
+	background-position:center center;
+
+	position:absolute;
+	top:441px;
+	left:285px;
+	background:url("../img/23.png") no-repeat center center;
+}
+
+.窗口大小一{
+	width:26px;
+	height:24px;
+	background-position:center center;
+
+	position:absolute;
+	top:501px;
+	left:284px;
+	background:url("../img/23.png") no-repeat center center;
+}
+
+.窗口大小二{
+	width:26px;
+	height:24px;
+	background-position:center center;
+
+	position:absolute;
+	top:531px;
+	left:284px;
+	background:url("../img/23.png") no-repeat center center;
+}
+
+.字体粗{
+	width:26px;
+	height:24px;
+	background-position:center center;
+
+	position:absolute;
+	top:568px;
+	left:284px;
+	background:url("../img/23.png") no-repeat center center;
+}
+
+.字体细{
+	width:26px;
+	height:24px;
+	background-position:center center;
+
+	position:absolute;
+	top:599px;
+	left:284px;
+	background:url("../img/23.png") no-repeat center center;
+}
+
+.微端一{
+	width:26px;
+	height:24px;
+	background-position:center center;
+
+	position:absolute;
+	top:501px;
+	left:640px;
+	background:url("../img/23.png") no-repeat center center;
+}
+
+.微端二{
+	width:26px;
+	height:24px;
+	background-position:center center;
+
+	position:absolute;
+	top:530px;
+	left:640px;
+	background:url("../img/23.png") no-repeat center center;
+}
+
+.老板键{
+	width:32px;
+	height:31px;
+	background-position:center center;
+
+	position:absolute;
+	top:559px;
+	left:637px;
+	background:url("../img/btn1.png") no-repeat center center;
+}
+
+.button_banner{
+	font-weight:900;
+	margin-top: 43px;
+    position: relative;
+    z-index: 2;}
+.banner{
+	width:398px;
+	height:24px;
+	background:url("../img/banner.png") no-repeat 0 center  ;
+	margin-left: 281px;
+	margin-top: 45px;
+	display: none;
+}
+.textbanner{
+	color:#ffffff;
+	text-align: center;
+	margin-top: -25px;
+    margin-left: 80px;
+}
